@@ -1,0 +1,145 @@
+.cont {
+  margin-top: 10%;
+  width: 320px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+
+  background-color: rgba(92, 71, 210, 0.838);
+  border-radius: 10px;
+  box-shadow: 2px 3px 5px rgb(71, 22, 22);
+  padding: 0.5rem;
+}
+
+.myList {
+  list-style-type: none;
+  font-size: 18px;
+  padding-right: 1rem;
+  padding-left: 0;
+  padding-right: 0;
+  color: white;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.imgcont {
+  width: 100%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+img {
+  width: 300px;
+  height: 400px;
+  object-fit: fill;
+}
+
+.type {
+  text-transform: capitalize;
+}
+
+.mName {
+  width: 280px;
+  height: 40px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.plot {
+  color: azure;
+}
+
+.plotbtn {
+  color: rgb(254, 224, 173) !important;
+  border: none !important;
+  width: fit-content !important;
+}
+
+.close {
+  float: right !important;
+}
+
+.outerPage {
+  margin-top: 15%;
+  display: flex;
+  flex-direction: row-reverse;
+  width: fit-content;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movieCont {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 650px;
+  height: fit-content;
+  background-color: rgb(86, 84, 81);
+  padding-right: 15px;
+  box-shadow: 2.5px 4px 9px #3a3939, 2.5px 4px 8px #7b0808;
+}
+
+.movieposterC {
+  width: 60%;
+  height: fit-content;
+}
+
+.movieposterC .movieposter {
+  object-fit: contain;
+}
+
+.movielist {
+  list-style-type: none;
+}
+
+.movietitle {
+  font-size: 27px;
+  color: whitesmoke;
+  margin-bottom: 6px;
+  width: 85%;
+  height: fit-content;
+}
+/* .movieI {
+  margin: 15px 0 20px 0;
+} */
+.movieY {
+  text-align: center;
+  padding: 2px 6px;
+  border-radius: 6px;
+  background-color: rgba(221, 242, 242, 0.683);
+  margin: 6px 6px 6px 0;
+}
+
+.movieT {
+  margin: 4px;
+  color: whitesmoke;
+}
+
+.movieR {
+  margin: 6px 0;
+}
+
+.movieG {
+  color: rgba(86, 154, 231, 0.968);
+  font-size: 16px;
+}
+
+.movieL {
+  color: rgba(188, 141, 245, 0.932);
+  font-size: 15px;
+  margin: 4px 0;
+}
+
+.movieplot {
+  color: white;
+  width: 60%;
+  margin-top: 7px;
+}
+
+.read {
+  cursor: pointer;
+  color: rgb(229, 250, 123);
+  margin: 0;
+  padding: 0;
+}
